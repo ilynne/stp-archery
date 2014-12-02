@@ -7,3 +7,10 @@ h1, h2, h3, h4, h5, h6, header p, nav li a {
     font-family: 'Futura Light', Futura, 'Open Sans', sans-serif;
     font-weight: 300;
 }
+button {
+    background-color: blue;
+    color: white;
+    margin: .2rem;
+    border-radius: 6px;
+    border: darkblue 1px solid;
+}
