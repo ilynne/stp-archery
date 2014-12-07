@@ -31,7 +31,7 @@ nav ul li a {text-decoration: none; color: #98C948;}
 nav ul li a:hover, nav ul li a:active {color: #D7E8BA;}
 
 figure figcaption {font-style: italic; text-align: center;}
-.main figure {max-width: 75%;}
+.main figure {max-width: 25rem; float:right; padding-left: 1rem;}
 .main figure img {max-width: 100%;}
 
 footer {font-size: .8rem; border-top: 1px dotted #98C948; padding-top: 1rem; text-align: center;}
