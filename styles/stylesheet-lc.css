@@ -11,11 +11,10 @@ h1, h2, h3, h4, h5, h6 {margin-bottom: 1rem; margin-top: 1rem; color: #59453A;}
 h1:first-child, h2:first-child {margin-top: 0;}
 
 button {
-    background-color: blue;
-    color: white;
+    background-color: #D7E8BA;
     margin: .2rem;
     border-radius: 6px;
-    border: darkblue 1px solid;
+    border: #98C948 1px solid;
 }
 
 header:after {content: ""; display: table; clear: both;}
