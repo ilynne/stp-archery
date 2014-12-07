@@ -14,3 +14,9 @@ button {
     border-radius: 6px;
     border: darkblue 1px solid;
 }
+
+header:after {content: ""; display: table; clear: both;}
+header {display: table; width: 100%;}
+header img, header h1 {display: table-cell; vertical-align: baseline; }
+header h1 {margin-bottom: 0; text-align: center;}
+header img {height: 4rem; }
