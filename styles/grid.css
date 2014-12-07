@@ -1,6 +1,6 @@
 /* grid */
 div {box-sizing: border-box;}
-div.row {width: 90%; margin: auto;}
+div.row {width: 100%; margin: auto;}
 div.row:after {content: ""; display: table; clear: both;}
 div[class^='col'] {float: left; padding-right: 1rem;}
 div[class^='col']:last-child {padding-right: 0}

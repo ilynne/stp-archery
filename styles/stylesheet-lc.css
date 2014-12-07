@@ -2,11 +2,14 @@
 
 body {margin: 1rem; }
 p {margin-bottom: 1rem;}
-h1, h2, h3, h4, h5, h6, header p, nav li a {
+h1, h2, h3, h4, h5, h6, header p, nav li, nav li a {
     text-transform: uppercase;
     font-family: 'Futura Light', Futura, 'Open Sans', sans-serif;
     font-weight: 300;
 }
+h1, h2, h3, h4, h5, h6 {margin-bottom: 1rem; margin-top: 1rem;}
+h1:first-child, h2:first-child {margin-top: 0;}
+
 button {
     background-color: blue;
     color: white;
@@ -16,7 +19,11 @@ button {
 }
 
 header:after {content: ""; display: table; clear: both;}
-header {display: table; width: 100%;}
+header {display: table; width: 100%; margin-bottom: 2rem;}
 header img, header h1 {display: table-cell; vertical-align: baseline; }
 header h1 {margin-bottom: 0; text-align: center;}
 header img {height: 4rem; }
+
+figure figcaption {font-style: italic; text-align: center;}
+.main figure {max-width: 75%;}
+.main figure img {max-width: 100%;}
