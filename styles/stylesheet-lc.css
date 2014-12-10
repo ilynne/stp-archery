@@ -2,11 +2,16 @@
 
 body {margin: 1rem; }
 p {margin-bottom: 1rem;}
-h1, h2, h3, h4, h5, h6, header p, nav li, nav li a {
+
+a {text-decoration: none; color: #98C948;}
+a:hover, a:active, a.selected {color: #D7E8BA;}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, header p, nav li, nav li a {
     text-transform: uppercase;
     font-family: 'Futura Light', Futura, 'Open Sans', sans-serif;
     font-weight: 300;
 }
+
 h1, h2, h3, h4, h5, h6 {margin-bottom: 1rem; margin-top: 1rem; color: #59453A;}
 h1:first-child, h2:first-child {margin-top: 0;}
 
@@ -17,7 +22,7 @@ button {
     border: #98C948 1px solid;
 }
 
-header:after {content: ""; display: table; clear: both;}
+header:after, footer:before {content: ""; display: table; clear: both;}
 header {display: table; width: 100%; margin-bottom: 2rem; border-bottom: 1px dotted #98C948;}
 header img, header h1 {display: table-cell; vertical-align: baseline; }
 header h1 {margin-bottom: 0; text-align: center;}
@@ -26,11 +31,11 @@ header img {height: 4rem; }
 nav {background-color: #59453A; padding: 1rem; color: #98C948;}
 nav ul {list-style: none; padding-left: 0;}
 nav ul li {padding: .5rem;}
-nav ul li a {text-decoration: none; color: #98C948;}
-nav ul li a:hover, nav ul li a:active {color: #D7E8BA;}
 
 figure figcaption {font-style: italic; text-align: center;}
 .main figure {max-width: 25rem; float:right; padding-left: 1rem;}
 .main figure img {max-width: 100%;}
 
-footer {font-size: .8rem; border-top: 1px dotted #98C948; padding-top: 1rem; text-align: center;}
+.main.content-page figure {float: none; padding-left: 0}
+
+footer {font-size: .8rem; border-top: 1px dotted #98C948; padding-top: 1rem; text-align: center; margin-top: 1rem;}

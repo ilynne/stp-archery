@@ -3,35 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>Straight to the Point Archery</title>
+  <link rel="stylesheet" href="styles/grid.css">
+  <link rel="stylesheet" href="styles/stylesheet-lc.css">
 </head>
 <body>
 
 <header>
+  <img src="images/logo.jpg" alt="STP Archery logo">
   <h1>Straight to the Point Archery</h1>
 </header>
 
-<nav id="leftNav">
-  <ul style="list-style-type:none">
-    <li>Classes</li>
-    <li>Private lessons</li>
-    <li>Instructors</li>
-    <li>About us</li>
-  </ul>
-</nav>
+<div class="row">
+  <div class="col span2">
+    <nav id="leftNav">
+      <ul>
+        <li><a href="classes.html" class="selected">Classes</a></li>
+        <li><a href="#">Private lessons</a></li>
+        <li><a href="#">Instructors</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </nav>
+  </div>
 
-<div id="main">
-  <article>
-    <h2>Classes</h2>
+  <div class="col span10">
+    <div class="main content-page">
+      <article>
+        <h2>Classes</h2>
 
-    <h3><a href="#">101 Basic</a></h3>
-    <img src="http://placehold.it/100x100" alt="101 class image">
+        <h3><a href="#">101 Basic</a></h3>
+        <figure>
+          <img src="images/class1.jpg" alt="archery class">
+        </figure>
 
-    <h3><a href="#">102 Intermediate</a></h3>
-    <img src="http://placehold.it/100x100" alt="102 class image">
 
-    <h3><a href="#">103 Advanced</a></h3>
-    <img src="http://placehold.it/100x100" alt="103 class image">
-  </article>
+        <h3><a href="#">102 Intermediate</a></h3>
+        <figure>
+          <img src="images/class2.jpg" alt="students with bows">
+        </figure>
+
+        <h3><a href="#">103 Advanced</a></h3>
+        <figure>
+          <img src="images/lesson2.jpg" alt="archery students">
+        </figure>
+      </article>
+    </div>
+  </div>
 </div>
 
 <footer>
