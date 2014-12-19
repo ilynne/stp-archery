@@ -3,8 +3,10 @@
 body {margin: 1rem; }
 p {margin-bottom: 1rem;}
 
-a {text-decoration: none; color: #98C948;}
-a:hover, a:active, a.selected {color: #D7E8BA;}
+a {text-decoration: none; }
+nav a {color: #D7E8BA; }
+a:hover, a:active, a.selected {color: #D7E8BA; text-decoration: underline;}
+nav a:hover, nav a:active {color: #FFFFFF;}
 
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, header p, nav li, nav li a {
     text-transform: uppercase;
